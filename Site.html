@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TimeTech - Transformando Tempo em Tecnologia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #000000;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .produto {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .produto img {
+      display: inline-block;
+      width: 30%; 
+      margin: 0 5px; 
+    }
+    .equipe {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .membro {
+      text-align: center;
+      margin: 0 20px;
+    }
+    .formulario {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="text"], input[type="email"], select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>TimeTech - Transformando Tempo em Tecnologia</h1>
+</header>
+
+<div class="container">
+  <section class="produto">
+    <h2>Produto</h2>
+    <img src="../Site/assets/produto1.jpg" alt="Imagem do Produto 1">
+    <img src="../Site/assets/produto2.jpg" alt="Imagem do Produto 2">
+    <img src="../Site/assets/produto3.jpg" alt="Imagem do Produto 3">
+    <p>O relógio inteligente da TimeTech é mais do que apenas um acessório. Com design elegante e tecnologia avançada, nosso relógio inteligente combina estilo e funcionalidade para oferecer uma experiência única aos nossos clientes. Através de sua interface intuitiva e recursos inovadores, nosso relógio inteligente permite que você acompanhe sua saúde e condicionamento físico, gerencie suas notificações, controle sua música e muito mais, tudo diretamente do seu pulso. Seja no escritório, na academia ou em suas aventuras diárias, o relógio inteligente da TimeTech está sempre pronto para acompanhar seu estilo de vida ativo e conectado.</p>
+  </section>
+
+  <section class="equipe">
+    <h2>Equipe</h2>
+    <div class="membro">
+      <img src="../Site/assets/Ceo.JPG" alt="Foto de Laura Mendes">
+      <p>Laura Mendes - CEO e Fundadora</p>
+    </div>
+    <div class="membro">
+      <img src="../Site/assets/Engenheiro.JPG" alt="Foto de Marcos Oliveira" style="
+      width: 205px;
+      height: 265px;">
+      <p>Marcos Oliveira - Engenheiro de Software</p>
+    </div>
+    <div class="membro">
+      <img src="../Site/assets/Designer.jpg" alt="Foto de Camila Santos" style="
+      width: 205px;
+      height: 265px;">
+      <p>Camila Santos - Designer de Produto</p>
+    </div>
+  </section>
+  <section class="formulario">
+    <h2>Formulário de Inscrição</h2>
+    <form action="#" method="post">
+      <input type="text" name="nome" placeholder="Nome" required="" style="
+    padding-right: 2px;">
+      <input type="email" name="email" placeholder="E-mail" required="" style="
+      padding-right: 2px;">
+      <input type="text" name="cidade" placeholder="Cidade" required="" style="
+      padding-right: 2px;">
+      <select name="estado" required>
+        <option value="">Selecione o Estado</option>
+        <option value="SP">São Paulo</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="BA">Bahia</option>
+      </select><br>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+</div>
+</body>
+</html>
